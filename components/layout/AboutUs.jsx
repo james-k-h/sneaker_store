@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const AboutUsInfo = () => {
   return (
-    <body  className="w-full h-screen h-max">
-      <Box className="h-full w-full flex justify-center mt-16 mb-[20rem] ">
+    <body  className="w-full h-fit ">
+      <Box className="h-fit w-full flex justify-center p-2 ">
         <VStack >
           <Box className="px-20 bg-emerald-400 w-10/12 rounded-xl">
           <Heading
@@ -55,7 +55,7 @@ const AboutUsInfo = () => {
           </Box>
         </VStack>
       </Box>
-      <br/>      <br/>      <br/>      <br/>      <br/>      <br/>      <br/>      <br/>      <br/>      <br/>
+      {/* <br/>      <br/>      <br/>      <br/>      <br/>      <br/>      <br/>      <br/>      <br/>      <br/> */}
     </body>
 
   );
