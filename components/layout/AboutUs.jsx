@@ -42,8 +42,8 @@ const AboutUsInfo = () => {
             </List>
             </Text>
           </Box>
-<br/><br/><br/>
-          <Box className="px-20 bg-emerald-400 w-10/12 rounded-xl ">
+<br/><br/><br/><br/>
+          <Box className="px-20 bg-emerald-400 w-10/12 rounded-xl p-4">
             <Heading as="h3" className='text-white font-bold text-xl text-center'>Contact Us</Heading>
             <Text whiteSpace="break-spaces" className="italic text-white p-2 text-center">
             For more information, you can contact us via email or regular post mail.
