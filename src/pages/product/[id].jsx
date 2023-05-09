@@ -56,9 +56,8 @@ export default ProductDetails
 export async function getServerSideProps(ctx) {
     const id = ctx.params.id
 
-    const { data: product } = await axios.get(`http://localhost:3000/api/products/${id}`)
+    const { data: product } = await axios.get(`https://sneaker-store-six.vercel.app/api/products/${id}`)
 
-    // `https://ecommerce-next-js-xz5u.vercel.app/api/products/${id}`
     return {
         props: {
             product

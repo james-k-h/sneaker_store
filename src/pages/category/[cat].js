@@ -25,8 +25,8 @@ export default Category
 export async function getServerSideProps(ctx){
   const category = ctx.params.cat
 
-  const {data} = await axios.get(`http://localhost:3000/api/products?cat=${category}`)
-  // `https://ecommerce-next-js-xz5u.vercel.app/api/products?cat=${category}`
+  const {data} = await axios.get(`https://sneaker-store-six.vercel.app/api/products?cat=${category}`)
+
 
   return {
     props: {
