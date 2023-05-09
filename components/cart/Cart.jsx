@@ -15,11 +15,11 @@ const Cart = () => {
      const lineItems = cartItems.map((item) => {
       return {
         price_data: {
-          currency: 'usd',
+          currency: 'cad',
           product_data: {
             name: item.name
           },
-          unit_amount: item.price * 100 // because stripe interprets price in cents
+          unit_amount: item.price * 100 
         },
         quantity: item.quantity
       }

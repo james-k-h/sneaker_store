@@ -9,8 +9,8 @@ export default async function handler(req, res){
                 line_items: req.body.lineItems,
                 mode: 'payment',
                 payment_method_types: ['card'],
-                success_url: 'https://ecommerce-next-js-xz5u.vercel.app/success',
-                cancel_url: 'https://ecommerce-next-js-xz5u.vercel.app/'
+                success_url: 'https://sneaker-store-six.vercel.app/success',
+                cancel_url: 'https://sneaker-store-six.vercel.app/'
             })
 
             return res.status(201).json(session)
