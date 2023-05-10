@@ -7,8 +7,10 @@ const Footer = () => {
       <div className='h-full w-10/12 grid grid-cols-2 justify-between'>
         <div className='flex flex-col gap-4'>
           <h2 className='text-2xl mb-8 text-emerald-600 font-bold'>FAQ</h2>
-<Text className='font-bold text-emerald-600'>Where are we located? </Text>
-          <Text>We are a proudly Canadian owned establishment, located on the West Coast.</Text>
+<Text className='font-bold text-emerald-600'>Legal Notice </Text>
+          <Text>This site is not intended to retail goods, it merely exists to serve 
+            as a demonstration of programming aptitude. The creator accepts no responsibility or liability whatsoever with regard to the content on this site.
+          </Text>
 
           <Text className='font-bold text-emerald-600'>Refund policy</Text>
           <Text>We have a 30-day full refund guarantee. You can call our toll free number, 1-800-SNEAKERS for more information.</Text>
