@@ -9,7 +9,7 @@ const Footer = () => {
           <h2 className='text-2xl mb-8 text-emerald-600 font-bold'>FAQ</h2>
 <Text className='font-bold text-emerald-600'>Legal Notice </Text>
           <Text>This site is not intended to retail goods, it merely exists to serve 
-            as a demonstration of programming aptitude. Do not enter real credit card information. The creator accepts no responsibility or liability whatsoever with regard to the content on this site.
+            as a demonstration of programming aptitude. Do not enter valid credit card information. The creator accepts no responsibility or liability whatsoever with regard to the content on this site.
           </Text>
 
           <Text className='font-bold text-emerald-600'>Refund policy</Text>
