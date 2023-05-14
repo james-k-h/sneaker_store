@@ -19,7 +19,7 @@ const Navbar = () => {
                     <Link href="/" className='cursor-pointer transition-all hover:text-[#efefefe6]'>Home</Link>
                     <Link href="/#categories" className='cursor-pointer transition-all hover:text-[#efefefe6]'>Categories</Link>
                     <Link href="/#featured" className='cursor-pointer transition-all hover:text-[#efefefe6]'>Featured</Link>
-                    <Link href="/about_us" className='cursor-pointer transition-all hover:text-[#efefefe6]'>About Us</Link>
+                    {/* <Link href="/about_us" className='cursor-pointer transition-all hover:text-[#efefefe6]'>About Us</Link> */}
                 </ul>
                 <div className='flex items-center gap-6'>
                     <div className='relative'>
