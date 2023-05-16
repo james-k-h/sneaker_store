@@ -7,7 +7,7 @@ import img3 from '../../public/assets/nike_kids.jpg'
 
 const Categories = () => {
   return (
-    <div id="categories" className='h-[200px] w-full flex justify-center font-bold'>
+    <div id="categories" className='h-[300px] w-full flex justify-center font-bold'>
       <div className='h-full w-10/12'>
         <h2 className='mb-8 text-3xl text-[#333] text-emerald-500' >Categories</h2>
         <div className='h-full w-full flex items-center justify-between'>
